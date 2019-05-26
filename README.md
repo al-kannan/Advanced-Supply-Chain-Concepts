@@ -28,10 +28,13 @@ In restaurant industry BOM levels are used based on task or transaction processi
 - Planning can start from AI or PPO
 
 ## Delivery Schedule
+Planning involves at item/source loc/destination loc. For each this combination we need delivery schedule for the planning horizon. When you plan for 15000 stores with average 300 items we are talking about about 4.5 million delivery schedule information for a period of 30 days. If you have an average delivery frequncy of 3 days we are taking about 45 million delivery schedule information we need on a daily basis. In order to manage such huge volume we would do delivery patten matching and sharing. 
 
 ## Planning Zone Concepts
+When we do such big system planning there are whole supply planners who will review orders on a daily basis. In order to meet certain timeline it is common to split the processing workload into planning zones such as 3 zones, grouping 5000 stores in each and run it based on local time zones, east cost first then centeral and then west coast.
 
 ## Soda Items Planning
+
 
 ## Perpetual Inventory Systems
 
