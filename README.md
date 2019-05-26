@@ -4,7 +4,7 @@ I had the privilege to work for the number one restaurant chain in the world wit
 # Supply Planning Concepts 
 
 ## Supply Chain Network
-The end goal is to supply items to  restaurants, in order to fulfill this there are many entities involved based on the item. Most of these entities are independently operated (called as Owner Operators). Local and Forign suppliers who mamanufacture or produce items. Hubs are the locations where items are gathered before its redistributed. Master Warehouses which store huge volumns of in-transit inventory. Distribution Center who work closely with Restaurant Owner Operators for day to day distribution of items. 
+The end goal is to supply items to  restaurants, in order to fulfill this there are many entities involved based on the item. Most of these entities are independently operated (called as Owner Operators). Local and Foriegn suppliers who mamanufacture or produce items. Hubs are the locations where items are gathered before redistributed. Master Warehouses which store huge volumns of in-transit inventory. Distribution Center who work closely with Restaurant Owner Operators for day to day distribution of items. Bakery and Commissary also work closely with Restaurant Owner Operators for day to day deliveires. 
 
 Each one of these entities need to plan supply for its demand. Demand, Supply and Transportation planning systems are involved at each entity level. 
 
