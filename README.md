@@ -3,9 +3,117 @@ I had the privilege to work for the number one restaurant chain in the world wit
 
 This is to test
 
+# Supply Planning Concepts 
 
-## 
+## Supply Chain Network
 
+## Demand Forecasting
+
+## Supply Planning
+
+## Transportation Management
+
+## Demand Forecasting Units  (DFUs)
+
+## Item Sourcing
+
+## Item Bills of Material
+
+## Delivery Schedule
+
+## Planning Zone Concepts
+
+## Soda Items Planning
+
+## Perpetual Inventory Systems
+
+## Supply Planning Master Data 
+
+## Supply Planning Transactoin Data 
+
+## Order Cycles
+
+## Food Promotional Items Planning
+
+## Toys Promotional Items Planning
+
+## Sales Filling Concept
+
+## New Store Handling 
+
+## Date Sensitive Inventory Management
+
+## Recipe Management
+
+## Supply Chain Statistics Management
+
+## Supply Chain Parameter Planning 
+
+## Forecast Error Tracking
+
+## Transaction Count Phantom Items
+
+## Manage by Exceptions
+
+## Substitute Item Management 
+
+## Transaction Count Phantom Item 
+
+------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
+
+# Demand Planning Concepts
+
+## Demand Lift Management
+
+## Promotional Event Management
+
+## Digital Event Management
+
+## Forecast Override Management
+
+## Proxy Item and Loc
+
+## Demand Master Data
+
+## Demand Transaction Data
+
+## Bills of Material for Demand Planning
+
+## Forecast Level Value and Adjustment 
+
+## Item and Loc Masking 
+
+## Forecast Merging within Entities
+
+## Demand Planning Algorithms 
+
+## Revenue Item Based Forecast Model
+
+## Manage by Exceptions
+
+
+## US DP
+- Digital Promotions Forecast Lift Management 
+- Event Forecast Lift Management
+- Lift Calculation
+- Forecast Override Management
+- Management Level on Item and Loc Hierarcy
+- Proxy Item or Loc Management
+- Digital Promotion Management
+- Master Data Management
+- Transaction Data Management
+- Bill of Material for Planning 
+- Forecast Level Value Calculation simple and complex methods
+- Item Loc Masking
+- Forecast Merging from Rest to DC
+
+
+## EU ROPDP/SP
+- MLR algorithms for forecasting
+- Demand Exception Management
+- Supply Exception Management
+- Custom Supersession (Substitute Item Management)
+- Revenue Item Based Forecast Model
 
 ## Restaurant Demand Planning
 - Supply Chain Network and Sourcing
@@ -31,27 +139,3 @@ This is to test
 - PZ management
 - Transaction Count Phantom Item 
 
-
-## US DP
-- Digital Promotions Forecast Lift Management 
-- Event Forecast Lift Management
-- Lift Calculation
-- Forecast Override Management
-- Management Level on Item and Loc Hierarcy
-- Proxy Item or Loc Management
-- Digital Promotion Management
-- Master Data Management
-- Transaction Data Management
-- Bill of Material for Planning 
-- Forecast Level Value Calculation simple and complex methods
-- Item Loc Masking
-- Forecast Merging from Rest to DC
-- Transportation Management
-
-
-## EU ROPDP/SP
-- MLR algorithms for forecasting
-- Demand Exception Management
-- Supply Exception Management
-- Custom Supersession (Substitute Item Management)
-- Revenue Item Based Forecast Model
