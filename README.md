@@ -70,17 +70,19 @@ In restaurant industry Recipe management is a big process and it is done by many
 Transactions information that comes to supply planning system may not be accurate. Forecast will not be accurate, Recipe usage will not be accurate, Inventory reporting will not be accurate, Product Promo need to be factored in, Employee meals need to be factored. In order to all these we compute SSCOV in duration and qty, Yield Correction Factor to address Recipe usage vairance, Waste not get reported need to be address using Waste Factor, Giveaways and Employee meal need to be addressed via Promo Factor and incorrect inventory counts need to be factored with IDIFF factor
 
 ## Supply Chain Parameter Planning 
-9 level planning 
+Planning for 15000 stores, average 300 items is not easy, we need tools to manage at different hierarchy levels. Planning parameter management itself is a module to address this. 3X3 matrix is one typical solution, 3 levels of geography and 3 levels of items which include Market-Region-Store and Item-Item Group-All Items. This 3X3 will give the planners to set planning configuration parameters and the system will blow it down to rest@item for planning purposes.
 
 ## Forecast Error Tracking
+This is one of the important process in supply planning, in order to not to get into a stock low or stock out at the store. Typically Forecast errors are computed for each delivery period of what we forecasted and what we actually sold. Each such two data points can produce error and over a 10 data points we can arrive a forecast error, based on this we can add safety stock which will address to the stock low and stock out issues 
 
 ## Transaction Count Phantom Items
+In restaurant industry supplying napkins type items, tray liners, ketchups  are a challenge, these are not part of Bills of Material, so it won't come under any base menu item planning. In order to solve this there is an non real item called Transaction Count item, for each store we compute it for each day and this becomes a fake base menu item with many assembly items part of it, for all these assembly items planning will be carried out similar other real items
 
 ## Manage by Exceptions
+When supply planner review plan output it is impossible to review each and every item at restaurant, so to manage this they rely on exception reports which will report incorrect safety stock, stock low, stock out, very low forecast, high coverage days, high leftover at the store etc. 
 
 ## Substitute Item Management 
 
-## Transaction Count Phantom Item 
 
 ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
 
@@ -115,6 +117,25 @@ Transactions information that comes to supply planning system may not be accurat
 ## Revenue Item Based Forecast Model
 
 ## Manage by Exceptions
+('MISSING_FCT',
+                                           'NEG_NETFCST',
+                                           'INVALID_FCSTID',
+                                           'FROMDFU_NOTMODELED',
+                                           'RELATEDDFU_NOTMODELED'
+INVALID_SUBSEL (pi_cust_short_nm,
+                      pi_config_grp,
+                      pi_run_type,
+                      po_status);
+
+      NO_DFUCAUSALFACTOR (pi_cust_short_nm,
+                          pi_config_grp,
+                          pi_run_type,
+                          po_status);
+
+      MODLEVEL_LOW (pi_cust_short_nm,
+                    pi_config_grp,
+                    pi_run_type,
+                    po_status);
 
 
 ## US DP
