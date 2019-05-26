@@ -52,19 +52,25 @@ Orders are created for DC to deliver items to Store. Typically orders are create
 Food Promotional Items are limited in supply so it gets special handling by Limited Supply Specialists. Restaurant cannot order what they want unlike other items. Sometimes stores that are on the borders in different planning zones could source limited supply items from DC that are not their primary DC, this complicates planning, in the sense 'Constrainted Inventory' planning need to be planned together which leads to store migration between planning zones. This becomes its own module to do accurate planning. 
 
 ## Toys Promotional Items Planning
-This is one of the big system within supply planning. There could be 12 promotions in a year, each for 4 weeks duration, each week can a different toy design. Each promotion gets planning 9 months ahead, each toy need to be designed, given to manufactrers in China and other countries, ship planning need to be done, hub and master warehosue gets involved, controled movement from master warehouse to DC need to be planned and then DC to store. Store will not have control over delivery quantities due to fair distribution rules, even run out requirement, ensuring store does not skip a design, small store big store management, toy first substitute management, fall back toys management and generic promotion to clear out strandad toys. 
+This is one of the big system within supply planning. There could be 12 promotions in a year, each for 4 weeks duration, each week can a different toy design. Each promotion gets planned 9 months ahead, each toy need to be designed, given to manufactrers in China and other countries, ship planning over sea routes need to be done, hub and master warehosue gets involved, controled movement from master warehouse to DC need to be planned and then DC to store. Store will not have control over delivery quantities due to fair distribution rules, even run out requirement, ensuring store does not skip a design, small store big store management, toy first substitute management, fall back toys management and generic promotion to clear out strandad toys. 
 
 ## Sales Filling Concept
+Sometimes due to system failure stores prior day sales will not get reported, yet we need previous day sales data to plan for the coming days. To address this we can use past forecast as filler for previous day sales. 
 
 ## New Store Handling 
+New store will not have any past history to predict future sales, everything need to be setup, some need to be modeled after a model store. New Store handling is a set of process to bring a store live for planning. 
 
 ## Date Sensitive Inventory Management
+Food items are perishable items with shelflife of 2 to 3 days. In order to do accurate supply planning we need what goes waste everyday. Store will not report all waste due to labor, time and other reasons. To address this issue inventory system need to compute what is unreported waste. To do this we need to know inventory at lot (delivery) level and each lots expiration date. Based on expiry date we can compute unreported waste. Also for DSI planning we need to on hand info by lot with its expiry date. All in-transits need to be have expiry date. Safety stock will also go waste, so on each delivery we will have to add safety stock. 
 
 ## Recipe Management
+In restaurant industry Recipe management is a big process and it is done by many groups, Sold Menu Item is set up by some group, Base Menu Item to Assembly Item to PPO is setup and managed a different group and PPO-SU is managed by the distribution center. For planning all these need to be reconciled and come together. Recipe flattening process is involved for process performance improvement, example sales coming in at BMI need to be converted to PPO for planning. The effective date adjustement also happens at various point in the process to open up early and extend beyond end date, plus fill gaps if any, all these are done because restaurant get their product earlier than effective date and keep selling after the end is reached, all these transactions will flow and need to be handled. 
 
 ## Supply Chain Statistics Management
+Transactions information that comes to supply planning system may not be accurate. Forecast will not be accurate, Recipe usage will not be accurate, Inventory reporting will not be accurate, Product Promo need to be factored in, Employee meals need to be factored. In order to all these we compute SSCOV in duration and qty, Yield Correction Factor to address Recipe usage vairance, Waste not get reported need to be address using Waste Factor, Giveaways and Employee meal need to be addressed via Promo Factor and incorrect inventory counts need to be factored with IDIFF factor
 
 ## Supply Chain Parameter Planning 
+9 level planning 
 
 ## Forecast Error Tracking
 
