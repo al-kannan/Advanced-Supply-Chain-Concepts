@@ -49,8 +49,10 @@ Transaction data include demand forecast, delivery confirmation to the store, in
 Orders are created for DC to deliver items to Store. Typically orders are created and send to store manager for approval, approved orders are send to DC for filfullment, DC will send in-transits, either store or DC has to send delivery confirmation and any adjustments and orders get closed out. Different cycle variations exists when DC generates its order based on adhoc restaurant special orders
 
 ## Food Promotional Items Planning
+Food Promotional Items are limited in supply so it gets special handling by Limited Supply Specialists. Restaurant cannot order what they want unlike other items. Sometimes stores that are on the borders in different planning zones could source limited supply items from DC that are not their primary DC, this complicates planning, in the sense 'Constrainted Inventory' planning need to be planned together which leads to store migration between planning zones. This becomes its own module to do accurate planning. 
 
 ## Toys Promotional Items Planning
+This is one of the big system within supply planning. There could be 12 promotions in a year, each for 4 weeks duration, each week can a different toy design. Each promotion gets planning 9 months ahead, each toy need to be designed, given to manufactrers in China and other countries, ship planning need to be done, hub and master warehosue gets involved, controled movement from master warehouse to DC need to be planned and then DC to store. Store will not have control over delivery quantities due to fair distribution rules, even run out requirement, ensuring store does not skip a design, small store big store management, toy first substitute management, fall back toys management and generic promotion to clear out strandad toys. 
 
 ## Sales Filling Concept
 
