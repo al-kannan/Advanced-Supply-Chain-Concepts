@@ -1,6 +1,6 @@
 # My Supply Chain Experience
 
-I had the privilege to work for the number 1 restaurant chain in the world with 34,000 restaurants, an iconic American brand having operations in 119 countries. Gartner listed its supply chain solution as one of the top 3 solutions in the world and I happen to be one of the Subject Matter Expert for years. In this README I have gathered my learnings on many Supply Chain concepts 
+I had the privilege to work for the number one restaurant chain in the world with 34,000 restaurants, an iconic fast food American brand having operations in 119 countries. Gartner listed its supply chain solution as one of the top 3 solutions and I happen to be one of the Subject Matter Expert helping them for years. In this README I have gathered my learnings on many of the Advanced Supply Chain solutions and concepts  
 
 
 
