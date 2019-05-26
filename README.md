@@ -31,18 +31,22 @@ In restaurant industry BOM levels are used based on task or transaction processi
 Planning involves at item/source loc/destination loc. For each this combination we need delivery schedule for the planning horizon. When you plan for 15000 stores with average 300 items we are talking about about 4.5 million delivery schedule information for a period of 30 days. If you have an average delivery frequncy of 3 days we are taking about 45 million delivery schedule information we need on a daily basis. In order to manage such huge volume we would do delivery patten matching and sharing. 
 
 ## Planning Zone Concepts
-When we do such big system planning there are whole supply planners who will review orders on a daily basis. In order to meet certain timeline it is common to split the processing workload into planning zones such as 3 zones, grouping 5000 stores in each and run it based on local time zones, east cost first then centeral and then west coast.
+When we do such big system planning there are whole bunch of supply planners who will review orders on a daily basis. In order to meet certain timeline it is common to split the processing workload into planning zones such as 3 zones, grouping 5000 stores in each and run it based on local time zones, east cost first then central and then west coast.
 
 ## Soda Items Planning
-
+Interesting aspect about Soda drink sale is that customer gets a cup and we don't know what specific drink he/she purchased, in other words we sold something but we don't know what item we sold !!!. To solve this riddle we need to track usage pattern for a period at each store on different syrups and come up with split % and use this split % for demand forecasting of such syrups and usage depletion in order to accurately do supply planning.
 
 ## Perpetual Inventory Systems
+Unlike other industries restaurants cannot do stock counting on a daily basis, simply too much labor, so we needed a perpetual inventory system which will calculate based on transactions what is the daily onhand in theory. This gets feed into supply planning as a starting inventory. Calculating accurate on hand gets complicated with recipe usage variations, unreported waste, date sensitive inventory and missing sales information.
 
 ## Supply Planning Master Data 
+For both supply and demand planning we need various master data such as what locations we are planning, what items, BOM and its active dates, sourcing, network, delivery schedule and substitute item info.
 
 ## Supply Planning Transactoin Data 
+Transaction data include demand forecast, delivery confirmation to the store, in-transit to store, past sales from store, stock count from store and order approval from store
 
 ## Order Cycles
+Orders are created for DC to deliver items to Store. Typically orders are created and send to store manager for approval, approved orders are send to DC for filfullment, DC will send in-transits, either store or DC has to send delivery confirmation and any adjustments and orders get closed out. Different cycle variations exists when DC generates its order based on adhoc restaurant special orders
 
 ## Food Promotional Items Planning
 
