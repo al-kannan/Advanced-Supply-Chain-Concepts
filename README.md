@@ -9,16 +9,23 @@ The end goal is to supply items to  restaurants, in order to fulfill this there 
 Each one of these entities need to plan supply for its demand. Demand, Supply and Transportation planning systems are involved at each entity level. 
 
 ## Demand Forecasting
+In order to come up with what to deliver to store we need to know the daily demand at store for each Item. Everything will go wrong if we cannot predict accurate demand forecast at store level. Forecast will never be perfect, but it should be close to actual sales. In this solution Demand Forecasting is a major module with many concepts that I have laidout below. 
 
 ## Supply Planning
+Supply planning system is the second pillar in this solution. Each restaurant item need to be planned daily. Restaurant participation is involved, what is sold in which location. There are many pieces of information need to be come together in order to accurately plan the supply
 
 ## Transportation Management
-
-## Demand Forecasting Units  (DFUs)
+This is the third pillar which addresses what are the means of transportation, mainly Trunc and Ship (Containers). Managing pickup and delivery schedule between locations and how to arrange items optimally in a container. Transportation is closely tied with Supply Planning. This does not play much role in Demand Forecasting. 
 
 ## Item Sourcing
+Each Item need to have Item/Source Loc/Dest Loc information in order for planning. This is one of the important input for supply planning. For example Bun is sourced from bakery, some of the morning breakfast items are sourced from commissary and rest of the items are sourced from distribution centers. The client that I helped had 40 DC and 15000 stores just in the US. 
 
 ## Item Bills of Material
+In restaurant industry BOM levels are used based on task or transaction processing at hand, for example there could be 5 level BOM (Sold Menu Item, Base Menu Item, Assembly Item (AI), Product/Package/Ops (PPO) Supply Item and Raw Item) but for supply planning Sold Menu Item such as combo meal plays very less role, we need sales at base menu item level. What restaurant expect from supply planning system is only Raw Item quantities, so we could bring the demand to Assembly Item or Product/Packaging/Ops Supply level and come up with Raw Material requirements for a store. 
+- Sales could come in at base menu item level
+- Deliveries will come at raw item level
+- Forecast will come in at base menu item level
+- Planning can start from AI or PPO
 
 ## Delivery Schedule
 
@@ -63,6 +70,8 @@ Each one of these entities need to plan supply for its demand. Demand, Supply an
 ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
 
 # Demand Planning Concepts
+
+## Demand Forecasting Units  (DFUs)
 
 ## Demand Lift Management
 
