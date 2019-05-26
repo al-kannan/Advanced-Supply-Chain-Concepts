@@ -1,7 +1,8 @@
-# My Fast Food Restaurants Supply Chain Experience
+# Food Restaurants Supply Chain Experience
+
+I had the privilege to work for a number 1 fast food(now called as Quick Serve) restaurant in the world, an iconic American brand having operations in 119 countries. Gartner listed its supply chain solution as one of the top 3 in the world and I happen to be one of the Subject Matter Expert Consultant for years. In this README I have gathered my learnings on Supply Chain concepts. 
 
 
-I have created few small programs to demonstrate AKKA concepts and features
 
 ## Restaurant Demand Planning
 - Supply Chain Network and Sourcing
