@@ -90,6 +90,7 @@ Substitute items are where both items are active but if store runs out they subs
 - Primary Item at DC
 - Substitute Item at store 
 - Substitute Item at DC
+
 The complication is store ran out on primary, they have sub but DC still has primary, planning system should deploy DC primary before store can use sub which is at the store. 
 
 ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
