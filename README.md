@@ -81,8 +81,16 @@ In restaurant industry supplying napkins type items, tray liners, ketchups  are 
 ## Manage by Exceptions
 When supply planner review plan output it is impossible to review each and every item at restaurant, so to manage this they rely on exception reports which will report incorrect safety stock, stock low, stock out, very low forecast, high coverage days, high leftover at the store etc. 
 
-## Substitute Item Management 
+## Item Transition Management 
+There are different scenarios broadly hard cutover and softcutover. Hard Cutover is when old item need to be stopped on a specific day and new item need to start. Soft Cutover is where restaurant can have old and new item and sell old item until everything is depleted and start the new item. For both we need to handle supersession logic. 
 
+## Substitute Item Management
+Substitute items are where both items are active but if store runs out they substitute primary with substitute item. This is a standard supply chain feature, but there are more complex scenario where deployment need to be 
+- Primary Item at store
+- Primary Item at DC
+- Substitute Item at store 
+- Substitute Item at DC
+The complication is store ran out on primary, they have sub but DC still has primary, planning system should deploy DC primary before store can use sub which is at the store. 
 
 ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
 
