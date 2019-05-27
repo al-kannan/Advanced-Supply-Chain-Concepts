@@ -96,16 +96,22 @@ The complication is store ran out on primary, they have sub but DC still has pri
 ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- ------------------- -------------------
 
 # Demand Planning Concepts
+The client that I worked used JDA Demand Planning product for demand forecasting. This JDA solution supports many alogorithms which include Lewandowski, moving average and  Multiple Linear Regression. US markets used Lew and Moving Avg and Europe markets used MLR. 
 
 ## Demand Forecasting Units  (DFUs)
+This is the basic unit which used to do the forecasting, each DFU represents a unique demand loc/item/group/model. Model represent the choosen alogorithm and history stream. History stream is predominantly Sales history but anything time series data can be used such as past shipments from DC or past arrivals at store or store daily total revenue.  Typically DFUs will have relationship via DFU maps, higher level DFU can be reconcilled to lower level DFUs. DFUs will have two dimentional hierarchies, location hierarchy can be store, advertisement co-op, DC, Region, National, item hierarchy can be base menu item to demand planning item aggregates (DPIAs). Mostly demand is forecasted at the DPIA level and gets reconcilled to Base Menu Item level. 
 
 ## Demand Lift Management
+JDA can use the total history which include regular sales, seasonality adjustments and any lifts due to promotions. But if there are too many events and event types have too much difference then out-of-box JDA feature will not predict the forecast accurately. This is mainly due to event weights cannot be fed into the standard alogrithms. Due to this product limitation we had to come up with custom lift calclation with various client specific rules. Lift management is a big topic because of the fact that total history need to be split to identify the past event performance and come up with new lifts for the future. 
 
 ## Promotional Event Management
+For the client that I worked there are too many events going on in the country. Stores are grouped into advertisement co-ops which pool AD money and primarilly TV ADs. Events are run at Ad Coop but individual stores can exclude from participation. Because there are too many events managing each event's lift is not possible, so similar events in the same geog are grouped into what is called Managed Events. Base Menu Items are also grouped into DPIAs. 
 
 ## Digital Event Management
+Digital events are getting very popular as I write this note in 2019, these are called Digital Campaigns which are sent directly to the mobile app and redumption is using the app. These campaigns are grouped together Managed Digital Events, similar other TV promotional events base menu item are aggregated to DPIAs and store are grouped into ad-coop. Redumption data could be used to predict future lifts. 
 
 ## Forecast Override Management
+
 
 ## Proxy Item and Loc
 
