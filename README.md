@@ -75,7 +75,7 @@ Planning for 15000 stores, average 300 items is not easy, we need tools to manag
 ## Forecast Error Tracking
 This is one of the important process in supply planning, in order to not to get into a stock low or stock out at the store. Typically Forecast errors are computed for each delivery period of what we forecasted and what we actually sold. Each such two data points can produce error and over a 10 data points we can arrive a forecast error, based on this we can add safety stock which will address to the stock low and stock out issues 
 
-## Transaction Count Phantom Items
+## How to plan for Napkins 
 In restaurant industry supplying napkins type items, tray liners, ketchups  are a challenge, these are not part of Bills of Material, so it won't come under any base menu item planning. In order to solve this there is an non real item called Transaction Count item, for each store we compute it for each day and this becomes a fake base menu item with many assembly items part of it, for all these assembly items planning will be carried out similar other real items
 
 ## Manage by Exceptions
