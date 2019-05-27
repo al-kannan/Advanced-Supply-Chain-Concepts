@@ -76,7 +76,7 @@ Planning for 15000 stores, average 300 items is not easy, we need tools to manag
 This is one of the important process in supply planning, in order to not to get into a stock low or stock out at the store. Typically Forecast errors are computed for each delivery period of what we forecasted and what we actually sold. Each such two data points can produce error and over a 10 data points we can arrive a forecast error, based on this we can add safety stock which will address to the stock low and stock out issues 
 
 ## How to plan for Napkins 
-In restaurant industry supplying napkins type items, tray liners, ketchups  are a challenge, these are not part of Bills of Material, so it won't come under any base menu item planning. In order to solve this there is an non real item called Transaction Count item, for each store we compute it for each day and this becomes a fake base menu item with many assembly items part of it, for all these assembly items planning will be carried out similar other real items
+In restaurant industry supplying napkins type items, tray liners, ketchups  are a challenge, these are not part of Bills of Material, so it won't come under any base menu item planning. In order to solve this there is an non real item called Transaction Count item, for each store we compute it for each day and this becomes a fake base menu item with many assembly items part of it, for all these assembly items planning will be carried out using this fictitious item similar other real items
 
 ## Manage by Exceptions
 When supply planner review plan output it is impossible to review each and every item at restaurant, so to manage this they rely on exception reports which will report incorrect safety stock, stock low, stock out, very low forecast, high coverage days, high leftover at the store etc. 
@@ -129,3 +129,7 @@ In US this process is far more complex due to various events that are going on, 
 
 ## Manage by Exceptions
 There are many demand forecasting exceptions that be automatically caught such as missing forecast, negative forecast, incorrect forecast override records, higher level to lower level DFU relationship does not exists, in an MLR algorithm there need to be causal factor in order to come up with accurate forecast; if this is missing report it etc. 
+
+# Summary
+Supply Chain can be a very complex based on how corporations carry out their business. The concepts that I have laid out in this are generally applicable to any fast food chains such as McDonald's, Burger King, Arbys, Subway etc. All though I gained significant amount of knowledge there is plenty to learn, in my humble opinion one life time is not enough. 
+
