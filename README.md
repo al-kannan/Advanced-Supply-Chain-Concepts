@@ -131,5 +131,5 @@ In US this process is far more complex due to various events that are going on, 
 There are many demand forecasting exceptions that be automatically caught such as missing forecast, negative forecast, incorrect forecast override records, higher level to lower level DFU relationship does not exists, in an MLR algorithm there need to be causal factor in order to come up with accurate forecast; if this is missing report it etc. 
 
 # Summary
-Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. All though I gained significant amount of knowledge there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape is changing. 
+Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. All though I gained significant amount of knowledge, there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape that is changing everyday. 
 
