@@ -1,6 +1,9 @@
 # My Supply Chain Experience
 I had the privilege to work for the number one restaurant chain in the world with 34,000 restaurants, an iconic fast food American brand having operations in 119 countries. Gartner listed its supply chain solution as one of the top 3 and I happen to be one of the Subject Matter Expert helping them for years. In this README I have gathered my learnings on many of the Advanced Supply Chain solutions and concepts  
 
+Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. I am also a JDA certified Demand Planning Expert, besides I have implemented ERP systems for atleast 10 customers, supply chain areas include Order Entry, Purchasing, Receivables, Payables, Work In Process, Inventory, Costing and General Ledger. All though I gained significant amount of knowledge in the supply chain area there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape that is changing everyday and continous industry disruptions. 
+
+
 # Supply Planning Concepts 
 
 ## Supply Chain Network
@@ -129,7 +132,4 @@ In US this process is far more complex due to various events that are going on, 
 
 ## Manage by Exceptions
 There are many demand forecasting exceptions that be automatically caught such as missing forecast, negative forecast, incorrect forecast override records, higher level to lower level DFU relationship does not exists, in an MLR algorithm there need to be causal factor in order to come up with accurate forecast; if this is missing report it etc. 
-
-# Summary
-Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. All though I gained significant amount of knowledge, there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape that is changing everyday. 
 
