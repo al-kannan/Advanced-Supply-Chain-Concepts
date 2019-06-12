@@ -3,7 +3,7 @@ I had the privilege to work for the number one restaurant chain in the world wit
 
 Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. 
 
-I am also a JDA certified Demand Planning Expert, besides I have implemented ERP systems for atleast 10 customers, supply chain areas include Order Entry, Purchasing, Receivables, Payables, Work In Process, Inventory, Costing and General Ledger. All though I gained significant amount of knowledge in the supply chain area there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape that is changing everyday and continous industry disruptions. 
+I am also a JDA certified Demand Planning Expert, besides I have implemented ERP systems for atleast 10 customers. All though I gained significant amount of knowledge in the supply chain area there is plenty more to learn, in my humble opinion one life time is not enough especially with the technology landscape that is changing everyday and continous industry disruptions. 
 
 
 # Supply Planning Concepts 
