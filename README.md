@@ -1,4 +1,4 @@
-# My Supply Chain Experience
+# Supply Chain Planning
 I had the privilege to work for the number one restaurant chain in the world with 34,000 restaurants, an iconic fast food American brand having operations in 119 countries. Gartner listed its supply chain solution as one of the top 3 and I happen to be one of the Subject Matter Expert helping them for almost 10 years. In this README I have gathered my learnings on many of the Advanced Supply Chain solutions and concepts in this industry.
 
 Supply Chain can be complex based on how corporations carry out their business and relationship to entities. The concepts that I have laid out in this are generally applicable to any retail chains or fast food chains such as McDonald's, Burger King, Arbys, Subway etc. 
